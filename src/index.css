@@ -1,0 +1,47 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listaDeProdutos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.produto {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.produto .nome {
+  font-size: 1em;
+}
+
+.produto .valor {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.produto img {
+  width: 150px;
+}
+
+.produto * {
+  margin: 0;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
